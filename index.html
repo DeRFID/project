@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU" type="text/javascript"></script>
+    <title>Главная</title>
+</head>
+
+
+<body>
+    <header>
+        <div id="customAlert" class="custom-alert">Номер успешно скопирован</div>
+        <div class="container">
+            <nav>
+                <div class="navbar__none">
+                    <img id="logo" src="../img/logo.png" alt="">
+                    <div ><img src="../img/png-klev-club-2g4r-p-tri-poloski-menyu-png-18.png" alt="" class="navbar__none--img"></div>
+                </div>
+
+                <div class="navbar">
+                    <a href="./page3.html" >Кроха</a>
+                    <a href="./page2.html" class="red">Наша команда</a>
+                    <a href="./page5.html">Полдня</a >
+                    <a href="./page4.html">Галерея</a>
+                    <div class="navbar__button-and-register">
+                        <div>
+                            <button class="button" value="">Оставить заявку</button>
+                        </div>
+                        <div class="navbar__log_in" >
+                            <img id="person" src="../img/Person.png" alt="">
+                            <p id="navbar__log_in--text" onclick="copyNumber()"> +7 777 777 77 77</p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__content">
+                <div>
+                    <div class="header__content--play">
+                        <img src="../img/hover.png" alt="">
+                        <span>Растём вместе с радостью и игрой</span>
+                    </div>
+                    <p class="header__content--text">
+                        Детский образовательный центр Createx
+                    </p>
+                    <div class="header__content--buttons">
+                        <button class="button__transparent">Записать ребенка</button>
+                    </div>
+                </div>
+                <img src="../img/glav.jpg" alt="" class="header__content--img border--radius">
+            </div>
+
+            <div class="header__statistics">
+                <div class="header__statistics--flex">
+                    <p class="header__statistics--number">420</p> 
+                    <span>Детей у нас ежедневно</span>
+                </div>
+                <div class="header__statistics--circle"></div>
+                <div class="header__statistics--flex">
+                    <p class="header__statistics--number">54</p> <span>Сотрудника</span>
+                </div>
+                <div class="header__statistics--circle"></div>
+                <div class="header__statistics--flex">
+                    <p class="header__statistics--number">9</p> <span>Программ</span>
+                </div>
+                <div class="header__statistics--circle"></div>
+                <div class="header__statistics--flex">
+                    <p class="header__statistics--number">5</p> <span>Лет как мы открыты</span>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+        <section id="about">
+                <div class="flex_container">
+                    <video src="../img/videoplayback4.mp4"  autoplay muted controls></video>
+                    <div class="about__content">
+                        <div class="about__content--margin">
+                            <h2 class="text-size">Кто мы такие?</h2>
+                            <h3 class="text-size-large">Почему мы?</h3>
+                        </div>
+                        <div class="about__content--text" >
+                            <div class="content__text--block">
+                                <img class="img_check" src="../img/check.png" alt="">
+                                <p>Делаем детей успешными и счастливыми;</p><br>
+                            </div>
+                            <div class="content__text--block">
+                                <img class="img_check" src="../img/check.png" alt="">
+                                <p>Помогаем родителям раскрыть индивидуальность своего ребенка;</p><br>
+                            </div>
+                            <div class="content__text--block">
+                                <img class="img_check" src="../img/check.png" alt="">
+                                <p>Прививаем любовь и интерес к учебе с раннего возраста.</p><br>
+                            </div>
+                            <div class="content__text--block">
+                                <img class="img_check" src="../img/check.png" alt="">
+                                <p>Развиваем внутренний мир;</p><br>
+                            </div>
+                            <div class="content__text--block">
+                                <img class="img_check" src="../img/check.png" alt="">
+                                <p>Учим ребенка социально взаимодейстовать;</p><br>
+                            </div>
+                            <div class="content__text--block">
+                                <img class="img_check" src="../img/check.png" alt="">
+                                <p>Имеем 5 лет опыта и тысячи довольных родителей и детей</p>
+                            </div>
+
+                        </div>
+                        <button class="button" id="about__content--button">Больше о нас</button>
+                    </div>
+                </div>
+
+        </section>
+        <section id="employees">
+            <div class="container">
+                <div class="shapka">
+                    <div>
+                        <h2 class="text-size">Что мы предлагаем</h2>
+                        <span class="text-size-large">Основные группы</span>
+                    </div>
+                    <button class="button__transparent">Смотреть все</button>
+
+                </div>
+                <div class="employees__content">
+                    <div class="employees__content--card"><img class="employ_img" src="../img/kids1.png" alt="">
+                        <div class="card__flex">
+                            <button class="button">Оставить заявку</button>
+                            <p class="card__flex--text">Подготовка к школе</p>
+                            <div>
+                                <span class="card__flex--price">70 000 тг.</span>
+                                <span class="card__flex--author">6-7 лет</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="employees__content--card">
+                        <img class="employ_img" src="../img/kids2.png" alt="">
+                        <div class="card__flex">
+                            <button class="button">Оставить заявку</button>
+                            <p class="card__flex--text">Группа кратковременного пребывания</p>
+                            <div>
+                                <span class="card__flex--price">80 000 тг.</span>
+                                <span class="card__flex--author">2.5-6 лет </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="employees__content--card">
+                        <img class="employ_img" src="../img/kids6.png" alt="">
+                        <div class="card__flex">
+                            <button class="button">Оставить заявку</button>
+                            <p class="card__flex--text">Продленка</p>
+                            <div>
+                                <span class="card__flex--price">80 000 тг.</span>
+                                <span class="card__flex--author">5-12 лет</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="employees__content--card"><img class="employ_img" src="../img/kids5.png" alt="">
+                        <div class="card__flex">
+                            <button class="button">Оставить заявку</button>
+                            <p class="card__flex--text">Английский язык</p>
+                            <div>
+                                <span class="card__flex--price">30 000 тг.</span>
+                                <span class="card__flex--author">от 9 лет</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="employees__content--card"><img class="employ_img" src="../img/kids3.png" alt="">
+                        <div class="card__flex">
+                            <button class="button">Оставить заявку</button>
+                            <p class="card__flex--text">Группа продленного дня</p>
+                            <div>
+                                <span class="card__flex--price">145 000 тг.</span>
+                                <span class="card__flex--author">2.5-6 лет</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="employees__content--card"> <img class="employ_img" src="../img/kids4.png" alt="">
+                        <div class="card__flex">
+                            <button class="button">Оставить заявку</button>
+                            <p class="card__flex--text">Группа Кроха</p>
+                            <div>
+                                <span class="card__flex--price">25 000 тг.</span>
+                                <span class="card__flex--author">9мес-2года</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="benefits">
+            <div class="container" >
+                <div id="slider__benefits">
+                <div class="benefits__text">
+                    <h2 class="text-size">НАШИ ПРЕИМУЩЕСТВА</h2>
+                    <p class="text-size-large">Что мы делаем</p>
+                </div>
+                <div class="benefits__bar">
+                    <div class="benefits__bar--size" > Мы лучшие</div>
+                    <div class="benefits__bar--size">Обратная связь
+                    </div>
+                    <div class="benefits__bar--size">Память 
+                    </div>
+                    <div class="benefits__bar--size">Комьюнити</div>
+                </div>
+                    <div class="benefits  block  slide__benefits">
+                        <div>
+                            <div class="benefits__content">
+                                <div class="benefits__content--text">
+                                    <h2 class="text-size-large" style="color: black;">Профессиональный подход</h2>
+                                    <p class="text-size">Мы очень бережно относимся к детям и стараемся подобрать для них все самое лучшее. Наши программы адаптированы под детей с разным начальным уровнем развития и при регулярном посещении занятий в течение года они работают не только на развитие интеллекта, но и помогают малышам адаптироваться в коллективе. Занятия ведут высококвалифицированные педагоги, которые, несомненно, найдут подход к каждому ребенку, помогая ему раскрыть свои способности и аккумулировать скрытые резервы.</p>
+                                </div>
+                                <img src="../img/podhod.jpg" class="border--radius img-height" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits slide__benefits">
+                        <div>
+                            <div class="benefits__content">
+                                <div class="benefits__content--text">
+                                    <h2 class="text-size-large" style="color: black;">Мы всегда на связи</h2>
+                                    <p class="text-size">Ваше мнение очень важно для нас! Мы всегда открыты к диалогу и стремимся улучшить нашу работу, чтобы ваш ребенок получал самое лучшее. Мы ценим ваше доверие и понимаем, что только вместе мы можем создать идеальную среду для развития вашего ребенка. Пожалуйста, не стесняйтесь делиться своими мыслями и предложениями – они бесценны для нас.</p>
+                                </div>
+                                <img src="../img/backfeed.jpg" class="border--radius img-height" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits   slide__benefits">
+                        <div>
+                            <div class="benefits__content">
+                                <div class="benefits__content--text">
+                                    <h2 class="text-size-large" style="color: black;">Вы нас не забудете</h2>
+                                    <p class="text-size">Мы создаем пространство, где каждый ребенок чувствует себя любимым и ценным. Наша цель – не просто обучение, а формирование счастливых воспоминаний, которые останутся с ними на всю жизнь. Мы верим, что счастливое детство – это фундамент для успешного будущего. Поэтому мы уделяем особое внимание эмоциональному благополучию каждого ребенка, создавая атмосферу доверия, поддержки и радости.</p>
+                                </div>
+                                <img src="../img/memort.jpg" class="border--radius img-height" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits  slide__benefits">
+                        <div class="benefits__content">
+                            <div class="benefits__content--text">
+                                <h2 class="text-size-large" style="color: black;">Мы семья</h2>
+                                <p class="text-size">Это дружная семья, где дети и родители вместе растут, учатся и поддерживают друг друга. Мы организуем совместные праздники, мастер-классы и тематические вечера, чтобы укрепить связь между детьми, родителями и педагогами. Вместе мы создаем атмосферу взаимопонимания и поддержки, где каждый чувствует себя частью чего-то большего.</p>          </div>
+                            <img src="../img/community.jpg" class="border--radius img-height" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </section>
+
+        <section class="events">
+            <div class="container" id="events">
+                <div>
+                    <h2 class="text-size">Наши события</h2>
+                    <p class="text-size-large">Праздники и мероприятия</p>
+                </div>
+                <div>
+                    <div class="events__content">
+                        <div class="events__content--blocks">
+                            <p class="blocks__text--red">05</p>
+                            <div>
+                                <p class="blocks__text--size">August</p>
+                                <p class="blocks--text--gray">11:00 - 14:00</p>
+                            </div>
+
+                        </div>
+                        <div>
+                            Formation of the organizational structure of the company in the face of uncertainty.
+                            <p class="blocks--text--gray">Onine master-class</p>
+                        </div>
+                        <button class="button__transparent">Смотреть все</button>
+                    </div>
+                    <div class="events__content">
+                        <div class="events__content--blocks">
+                            <p class="blocks__text--red">24</p>
+                            <div>
+                                <p class="blocks__text--size">July</p>
+                                <p class="blocks--text--gray">11:00 - 12:30</p>
+                            </div>
+
+                        </div>
+                        <div style="width: 580px;">
+                            Building a customer service department. Best Practices.
+                            <p class="blocks--text--gray">Onine lecture</p>
+                        </div>
+                        <button class="button__transparent">Смотреть все</button>
+                    </div>
+                    <div class="events__content">
+                        <div class="events__content--blocks">
+                            <p class="blocks__text--red">16</p>
+                            <div>
+                                <p class="blocks__text--size">August</p>
+                                <p class="blocks--text--gray">10:00 - 13:00</p>
+                            </div>
+
+                        </div>
+                        <div>
+                            How to apply methods of speculative design in practice. Worldbuilding prototyping.
+                            <p class="blocks--text--gray">Onine workshop</p>
+                        </div>
+                        <button class="button__transparent">Смотреть все</button>
+                    </div>
+                </div>
+                <div class="events__content--foot">
+                    <span id="events__foot--text">Хотите больше?</span>
+                    <button class="button">Смотреть все</button>
+                </div>
+            </div>
+        </section>
+        <section class="Certificate">
+            <div class="container" id="Certificate__flex">
+                <div class="Certificate__content">
+                    <div>
+                        <h2 class="text-size">НАШ СЕРТИФИКАТ</h2>
+                        <p class="text-size-large">Наш профессионализм подтвержден</p>
+                    </div>
+                    <p class="gray_text">Мы аккредитованы международными профессиональными организациями и институтами:
+                    </p>
+                    <div class="Certificate__content--img">
+                        <img src="../img/logo-2.png" alt="">
+                        <img src="../img/SentinalConsultingLogo1.png" alt="">
+                        <img src="../img/logo—копия.png" alt="">
+                    </div>
+                </div>
+                <img src="../img/image.png" class="Certificate--img" alt="">
+            </div>
+
+        </section>
+        <section class="team">
+            <div class="container">
+
+                <div class="team__margin">
+                </div>
+                <div class="team__head--flex">
+                    <div>
+                        <h2 class="text-size">Лучшие воспитатели здесь </h2>
+                        <p class="text-size-large">Встречайте нашу команду</p>
+                    </div>
+                </div>
+                <div class="team__content">
+                    <div><img class="team__content--img" src="../img/employ4.png" alt="">
+                        <p>Диана Смирнова</p>
+                        <p class="gray_text">Педагог - воспитатель</p>
+                    </div>
+                    <div><img class="team__content--img" src="../img/speaker1.png" alt="">
+                        <p>Александр Рудской</p>
+                        <p class="gray_text">Директор филиала на Назарбаева</p>
+                    </div>
+                    <div><img class="team__content--img" src="../img/employ5.png" alt="">
+                        <p>Кристина Бенли</p>
+                        <p class="gray_text">Педагог - воспитатель</p>
+                    </div>
+                    <div><img class="team__content--img" src="../img/employ2.png" alt="">
+                        <p>Антон Нестеров</p>
+                        <p class="gray_text">Преподаватель по подготовке к школе</p>
+                    </div>
+                </div>
+
+                <div class="testimonials">
+                    <p class="text-size">Отзывы родителей</p>
+                    <P class="text-size-large">Вот что они сказали</P>
+                    <div class="slider__container">
+                        <button class="Strelka arrow-left">&larr;</button>
+                        <div id="frame">
+                            <div class="slider">
+                                <div class="gray_text slide ">
+                                    <div class="team__content--flex testimoals__content">
+                                        <svg width="28" height="20" viewBox="0 0 28 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" style="margin-left: -30px;">
+                                            <path
+                                                d="M18 8.92534C18 8.63119 18.1295 8.35196 18.3541 8.16195L28 0V19C28 19.5523 27.5523 20 27 20H19C18.4477 20 18 19.5523 18 19V8.92534Z"
+                                                fill="#FF3F3A" />
+                                            <path
+                                                d="M0 8.92534C0 8.63119 0.129507 8.35196 0.354058 8.16195L10 0V19C10 19.5523 9.55228 20 9 20H1C0.447715 20 0 19.5523 0 19V8.92534Z"
+                                                fill="#FF3F3A" />
+                                        </svg>
+                                        <span>
+                                            Ходим в продленку. Дочька довольна, с удовольствием ходит. Тёплая атмосфера, профессиональные педагоги, ответственные сотрудники, вкусная еда, чистые и уютные помещения. 
+                                        </span> <br>
+                                        <div class="testimoals__content--flex">
+                                        <img src="../img/avatar2.svg" class="avatar__width" alt="">
+                                            <div style="margin-left: 20px;">
+                                                <span class="text-size" style="color: black;">Гаухар Бестерекова</span>
+                                                <p class='text-size'> Продленка</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gray_text slide" >
+                                    <div class="team__content--flex testimoals__content">
+                                        <svg width="28" height="20" viewBox="0 0 28 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" style="margin-left: -30px;">
+                                            <path
+                                                d="M18 8.92534C18 8.63119 18.1295 8.35196 18.3541 8.16195L28 0V19C28 19.5523 27.5523 20 27 20H19C18.4477 20 18 19.5523 18 19V8.92534Z"
+                                                fill="#FF3F3A" />
+                                            <path
+                                                d="M0 8.92534C0 8.63119 0.129507 8.35196 0.354058 8.16195L10 0V19C10 19.5523 9.55228 20 9 20H1C0.447715 20 0 19.5523 0 19V8.92534Z"
+                                                fill="#FF3F3A" />
+                                        </svg>
+                                        <span>
+                                            Createx - зарекомендовал себя как очень хороший детский центр! Персонал очень приветливый, педагоги профессионалы своего дела, моему ребенку очень нравится у Вас! Благодарим за Ваш труд!  </span> <br>
+                                        <div class="testimoals__content--flex">
+                                            <img src="../img/avatar1.svg" alt="" class="avatar__width">
+                                            <div style="margin-left: 20px;">
+                                                <span class="text-size" style="color: black;">Leyla Zhapsarbayeva</span>
+                                                <p class='text-size'> Группа продленного дня</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gray_text slide" >
+                                    <div class="team__content--flex testimoals__content">
+                                        <svg width="28" height="20" viewBox="0 0 28 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" style="margin-left: -30px;">
+                                            <path
+                                                d="M18 8.92534C18 8.63119 18.1295 8.35196 18.3541 8.16195L28 0V19C28 19.5523 27.5523 20 27 20H19C18.4477 20 18 19.5523 18 19V8.92534Z"
+                                                fill="#FF3F3A" />
+                                            <path
+                                                d="M0 8.92534C0 8.63119 0.129507 8.35196 0.354058 8.16195L10 0V19C10 19.5523 9.55228 20 9 20H1C0.447715 20 0 19.5523 0 19V8.92534Z"
+                                                fill="#FF3F3A" />
+                                        </svg>
+                                            Самый лучший садик и центр для развития деток всех возрастов! Моя малышка в два года оставалась в саду без слез и с большим желанием! Жаль что когда старшие детки ходили в сад, его ещё не было ☺️ Большое уважение и признательность ко всем работникам центра!    <div class="testimoals__content--flex">
+                                            <img src="../img/avatar5.svg" alt="" class="avatar__width">
+                                            <div style="margin-left: 20px;">
+                                                <span class="text-size" style="color: black;">Dina Beisebayeva</span>
+                                                <p class='text-size'> Кроха</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gray_text slide" >
+                                    <div class="team__content--flex testimoals__content">
+                                        <svg width="28" height="20" viewBox="0 0 28 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" style="margin-left: -30px;">
+                                            <path
+                                                d="M18 8.92534C18 8.63119 18.1295 8.35196 18.3541 8.16195L28 0V19C28 19.5523 27.5523 20 27 20H19C18.4477 20 18 19.5523 18 19V8.92534Z"
+                                                fill="#FF3F3A" />
+                                            <path
+                                                d="M0 8.92534C0 8.63119 0.129507 8.35196 0.354058 8.16195L10 0V19C10 19.5523 9.55228 20 9 20H1C0.447715 20 0 19.5523 0 19V8.92534Z"
+                                                fill="#FF3F3A" />
+                                        </svg>
+                                            Отличный центр для детей! Ходим в продленку. Отличный преподавательский состав. Все время организуют праздники, обучающие и развлекающие игры для детей. Очень важно, что есть питание и свой повор, всегда разнообразное и свежее питание. <div class="testimoals__content--flex">
+                                            <img src="../img/avatar6.svg" alt="" class="avatar__width">
+                                            <div style="margin-left: 20px;">
+                                                <span class="text-size" style="color: black;">Dina Beisebayeva</span>
+                                                <p class='text-size'>Продленка</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="Strelka arrow-right">&rarr;</button> 
+                    </div>
+                </div>
+           </div>
+
+
+
+
+
+        </section>
+        <section class="Blog" id="Blog">
+            <div class="container">
+                <div class="Blog--head">
+                    <div class="Blog--head__text">
+                        <h2 class="text-size">Наши занятие</h2>
+                        <p class="text-size-large">Последние занятия</p>
+                    </div>
+                    <button class="button" id="Blog--head__button">Оставить заявку</button>
+                </div>
+                <div class="blog--content">
+                    <div class="blog--content--block">
+                        <video class="video-size" src="../img/videoplayback.mp4" autoplay muted controls ></video>
+                        <div class="blog--content__flex">
+                            <p class="blog--content__text">"Здоровые зубки"</p>
+                            <p class="blog--content__text"> <img src="../img/Calendar.png" alt="">Январь 4, 2025</p>
+                            <p id="text__border--none1" class="blog--content__text"> <img
+                                    src="../img/Clock.png" alt="">36 минут</p>
+                        </div>
+                        <p class="blog--content__text2">Как важно научить деток правильно чистить зубки! Этот навык малыш несет через всю жизнь и учится ухаживать за собой.</p>
+                        <p class="gray_text">Мастер-класс "Мойдодыр" в детском центре "Createx"!</p>
+                        <div> <a href="https://www.youtube.com/watch?v=mjvpsoYxv2c&list=PPSV"><span>Смотреть</span><div class="Strelka-red">&#8594;</div></a> </div>
+
+
+                    </div>
+                    <div class="blog--content--block">
+                        <video  class="video-size" src="../img/videoplayback2.mp4"  autoplay muted controls></video>
+                        <div class="blog--content__flex">
+                            <p class="blog--content__text">'печенье'</p>
+                            <p class="blog--content__text"> <img src="../img/Calendar.png" alt="">январь 15, 2025</p>
+                            <p id="text__border--none2" class="blog--content__text"> <img
+                                    src="../img/Clock.png" alt="">45 минут</p>
+                        </div>
+                        <p class="blog--content__text2">Мастер класс по приготовлению простых но вкусных печений.С элементами кулинарного мастерства</p>
+                        <p class="gray_text">Мастер класс "печенье своими руками"</p>
+                        <div><a href="https://www.youtube.com/watch?v=8e5GklwHrcM&t=1s"><span>Смотреть</span><div class="Strelka-red">&#8594;</div></a></div>
+                    </div>
+                    <div class="blog--content--block">
+                        <video class="video-size" src="../img/videoplayback3.mp4" autoplay muted controls></video>
+                        <div class="blog--content__flex">
+                            <p class="blog--content__text">'профессии'</p>
+                            <p id="text__border--none3" class="blog--content__text"> <img
+                                    src="../img/Calendar.png" alt="">ноябрь 8, 2024</p>
+                        </div>
+                        <p class="blog--content__text2">И даже самые младшие знакомились с разными профессиями</p>
+                        <p class="gray_text">И даже самые младшие знакомились с разными профессиями</p>
+                        <div> <a href="https://www.youtube.com/watch?v=sfkBU-fbCOY"><span>Смотреть</span><div class="Strelka-red">&#8594;</div></a></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Subscribe">
+            <div class="container">
+                <div class="Subscribe__content">
+                    <h2 class="text-size" id="Subscribe__text--margin">Не забывай нас</h2>
+                    <p class="text-size-large" id="Subscribe__text">Подпишись на нашу Createx рассылку</p>
+                    <form id="Subscribe__content--flex">
+                        <input id="Subscribe--input" type="text" placeholder="Ваша почта" >
+                        <button id="Subscribe--button" onclick="showConfirmation()">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+            
+            
+            <div id="popupMessage" class="custom-alert">Рассылка подтверждена</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__content">
+            <div class="container" id="footer__content--margin">
+                <div class="footer__content--block1">
+                    <svg width="130" height="22" viewBox="0 0 130 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_2031_2120)">
+                          <path d="M0 11.1008C0 5.00078 3.3 1.30078 8.7 1.30078C12.8 1.30078 16.1 3.80078 16.7 7.50078C16.8 7.90078 16.5 8.20078 16.1 8.20078H13.5C13.2 8.20078 13 8.00078 12.9 7.70078C12.4 5.80078 10.8 4.60078 8.7 4.60078C5.8 4.60078 4 7.10078 4 11.1008C4 15.1008 5.8 17.6008 8.8 17.6008C10.9 17.6008 12.4 16.5008 13 14.7008C13.1 14.4008 13.3 14.2008 13.6 14.2008H16.2C16.6 14.2008 16.9 14.6008 16.8 14.9008C16.2 18.5008 13 20.9008 8.8 20.9008C3.3 20.9008 0 17.1008 0 11.1008Z" fill="white" />
+                          <path d="M24.2997 20.401H21.3997C21.0997 20.401 20.8997 20.201 20.8997 19.901V2.60104C20.8997 2.20104 21.2997 1.80104 21.6997 1.80104H28.6997C32.7997 1.80104 35.2997 4.10104 35.2997 7.70104C35.2997 9.80104 34.2997 11.701 32.5997 12.701C32.1997 12.901 32.0997 13.401 32.2997 13.701L35.3997 19.601C35.5997 19.901 35.2997 20.301 34.9997 20.301H31.6997C31.4997 20.301 31.2997 20.201 31.1997 20.001L28.2997 14.001C28.1997 13.701 27.8997 13.601 27.5997 13.601H25.2997C24.9997 13.601 24.7997 13.801 24.7997 14.101V20.001C24.8997 20.201 24.5997 20.401 24.2997 20.401ZM24.8997 10.201C24.8997 10.501 25.0997 10.701 25.3997 10.701H28.3997C30.3997 10.701 31.4997 9.60104 31.4997 7.80104C31.4997 6.00104 30.2997 4.90104 28.3997 4.90104H25.4997C25.1997 4.90104 24.9997 5.10104 24.9997 5.40104V10.201H24.8997Z" fill="white" />
+                          <path d="M51.4998 20.401H40.4998C40.0998 20.401 39.7998 20.101 39.7998 19.701V2.50104C39.7998 2.10104 40.0998 1.80104 40.4998 1.80104H51.4998C51.8998 1.80104 52.1998 2.10104 52.1998 2.50104V4.40104C52.1998 4.80104 51.8998 5.10104 51.4998 5.10104H44.1998C43.8998 5.10104 43.6998 5.30104 43.6998 5.60104V9.00104C43.6998 9.30104 43.8998 9.50104 44.1998 9.50104H50.9998C51.3998 9.50104 51.6998 9.80104 51.6998 10.201V11.901C51.6998 12.301 51.3998 12.601 50.9998 12.601H44.1998C43.8998 12.601 43.6998 12.801 43.6998 13.101V16.901C43.6998 17.201 43.8998 17.401 44.1998 17.401H51.4998C51.8998 17.401 52.1998 17.701 52.1998 18.101V20.001C52.1998 20.101 51.8998 20.401 51.4998 20.401Z" fill="white" />
+                          <path d="M66.9999 15.901H61.2999C60.9999 15.901 60.7999 16.101 60.6999 16.301L59.5999 20.001C59.4999 20.301 59.2999 20.401 58.9999 20.401H56.3999C55.9999 20.401 55.6999 20.001 55.7999 19.601L61.7999 2.20104C61.8999 2.00104 62.0999 1.80104 62.3999 1.80104H66.0999C66.3999 1.80104 66.5999 2.00104 66.6999 2.20104L72.6999 19.601C72.7999 20.001 72.4999 20.401 72.0999 20.401H69.1999C68.8999 20.401 68.6999 20.201 68.5999 20.001L67.4999 16.301C67.4999 16.101 67.1999 15.901 66.9999 15.901ZM62.0999 13.001H66.1999C66.3999 13.001 66.4999 12.801 66.4999 12.601L64.2999 5.60104H64.0999L61.8999 12.601C61.7999 12.801 61.8999 13.001 62.0999 13.001Z" fill="white" />
+                          <path d="M79.0001 19.7014V5.50143C79.0001 5.20143 78.8001 5.00143 78.5001 5.00143H74.1001C73.7001 5.00143 73.3001 4.70143 73.3001 4.20143V2.50143C73.3001 2.10143 73.6001 1.70143 74.1001 1.70143H87.7001C88.1001 1.70143 88.5001 2.00143 88.5001 2.50143V4.20143C88.5001 4.60143 88.2001 5.00143 87.7001 5.00143H83.3001C83.0001 5.00143 82.8001 5.20143 82.8001 5.50143V19.8014C82.8001 20.2014 82.5001 20.5014 82.1001 20.5014H79.6001C79.3001 20.4014 79.0001 20.1014 79.0001 19.7014Z" fill="white" />
+                          <path d="M103.8 20.401H92.7999C92.3999 20.401 92.0999 20.101 92.0999 19.701V2.50104C92.0999 2.10104 92.3999 1.80104 92.7999 1.80104H103.8C104.2 1.80104 104.5 2.10104 104.5 2.50104V4.40104C104.5 4.80104 104.2 5.10104 103.8 5.10104H96.4999C96.1999 5.10104 95.9999 5.30104 95.9999 5.60104V9.00104C95.9999 9.30104 96.1999 9.50104 96.4999 9.50104H103.3C103.7 9.50104 104 9.80104 104 10.201V11.901C104 12.301 103.7 12.601 103.3 12.601H96.4999C96.1999 12.601 95.9999 12.801 95.9999 13.101V16.901C95.9999 17.201 96.1999 17.401 96.4999 17.401H103.8C104.2 17.401 104.5 17.701 104.5 18.101V20.001C104.5 20.101 104.2 20.401 103.8 20.401Z" fill="white" />
+                          <path d="M117.7 9.7L111.5 1.6C111.1 1.2 110.6 1 110.1 1C109.6 1 109.1 1.2 108.7 1.6C108 2.4 108 3.6 108.7 4.4L113.6 11L108.7 17.6C108 18.4 108 19.6 108.7 20.4C109.1 20.8 109.6 21 110.1 21C110.6 21 111.1 20.8 111.5 20.4L117.7 12.3C118.4 11.7 118.4 10.5 117.7 9.7Z" fill="#FF3F3A" />
+                          <path d="M120.343 9.7L126.543 1.6C126.943 1.2 127.443 1 127.943 1C128.443 1 128.943 1.2 129.343 1.6C130.043 2.4 130.043 3.6 129.343 4.4L124.443 11L129.343 17.6C130.043 18.4 130.043 19.6 129.343 20.4C128.943 20.8 128.443 21 127.943 21C127.443 21 126.943 20.8 126.543 20.4L120.343 12.3C119.643 11.7 119.643 10.5 120.343 9.7Z" fill="#FF3F3A" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2031_2120">
+                            <rect width="130" height="22" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <h2>Наши соц сети</h2>
+                    <div class="footer__content--block1--img">
+                        <img src="../img/Vector.png" alt="">
+                        <img src="../img/Twitter.png" alt="">
+                        <img src="../img/Subtract.png" alt="">
+                        <img src="../img/telegram.png" alt="">
+                        <img src="../img/Instagram.png" alt="">
+                        <img src="../img/Linked-In.png" alt="">
+                    </div>
+                </div>
+                <div class="footer__content--block3">
+                    <h2>Наш адрес</h2>
+                    <pre>НАШ АДРЕС
+г.Алматы ул. Климента Тимирязева, 28В
+Телефон: +7 (777) 777 77 77
+
+Наш Центр работает:
+С 08:00 до 19:00</pre>
+                </div>
+                <div id="footer__content--block4" class="footer__content--block4">
+                    <h2>Мы на карте</h2>
+                </div>
+                <div class="footer__content--block2">
+                    <h2 id="footer__content--block2">Навигация по сайту</h2>
+                    <a href="./page3.html" >Кроха</a>
+                    <a href="./page2.html">Наша команда</a>
+                    <a href="./page5.html">Расписание</a >
+                    <a href="./page4.html">Галерея</a>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="footer__content--bottom">
+            <div class="container" id="footer__content--bottom--flex">
+                <div>
+                    © All rights reserved.Made with
+                    <img src="../img/Vector(Stroke).png" alt="">
+                    by Createx Studio
+                </div>
+                <div>
+                    <a href="#logo"><span class='white'>Вверх</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal__content">
+            <img src="../img/logo.png" alt="" class="modal__logo">
+            <span class="close">&times;</span>
+            <h2>Оставьте заявку</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Ваше имя" required>
+
+                <input type="tel" id="phone" placeholder="+7 777 777 77 77" required>
+
+                <input type="text" id="course" placeholder="Куда вы хотите отдать вашего ребенка">
+                
+                <button class="button" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
