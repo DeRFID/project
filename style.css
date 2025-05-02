@@ -124,7 +124,7 @@ body{
 
 
 header{
-    background-image: url(../img/background.png);
+    background-image: url(./img/background.png);
     padding-top: 20px;
 }
 #logo{
@@ -284,7 +284,7 @@ header{
 }
 
 #about{
-    background-image: url(../img/background-2.png);
+    background-image: url(./img/background-2.png);
     background-size: 100% 100%;
     margin-top: 180px;
 }
@@ -465,7 +465,7 @@ header{
 
 
 .events{
-    background-image: url(../img/background-2\ —\ копия.png);
+    background-image: url(./img/background-2\ —\ копия.png);
 }
 #events{
     display: flex;
@@ -557,7 +557,7 @@ header{
 
 
 .team{
-    background-image: url(../img/Background-2\ —\ копия\ 2.png);
+    background-image: url(./img/Background-2\ —\ копия\ 2.png);
     min-height: 1600px;
 }
 .team__margin{
@@ -699,7 +699,7 @@ header{
 
 .Subscribe{
     height: 564px;
-    background-image: url(../img/background-2\ —\ копия\ 3.png);
+    background-image: url(./img/background-2\ —\ копия\ 3.png);
     margin-top: 180px;
 }
 #Subscribe--input{
