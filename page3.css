@@ -101,7 +101,7 @@ body{
 
 
 header{
-    background-image: url(./img/background.png);
+ background-color:rgb(255, 228, 216);
     padding-top: 20px;
     padding-bottom: 50px;
 }
@@ -307,7 +307,7 @@ header{
 
 .Subscribe{
     height: 564px;
-    background-image: url(./img/background-2\ —\ копия\ 3.png);
+   background-color:rgb(255, 228, 216);
     margin-top: 180px;
 }
 #Subscribe--input{
