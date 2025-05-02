@@ -465,7 +465,7 @@ header{
 
 
 .events{
-    background-image: url(./img/background-2\ —\ копия.png);
+ background-color:rgb(255, 228, 216);
 }
 #events{
     display: flex;
