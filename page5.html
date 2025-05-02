@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU" type="text/javascript"></script>
 
-    <title>Main</title>
+    <title>schedule</title>
 </head>
 
 <body>
@@ -18,21 +18,21 @@
         <div class="container">
             <nav>
                 <div class="navbar__none">
-                    <a href="./index.html"><img id="logo" src="../img/logo.png" alt=""></a>
-                    <div ><img src="../img/png-klev-club-2g4r-p-tri-poloski-menyu-png-18.png" alt="" class="navbar__none--img"></div>
+                    <a href="./index.html"><img id="logo" src="./img/logo.png" alt=""></a>
+                    <div ><img src="./img/png-klev-club-2g4r-p-tri-poloski-menyu-png-18.png" alt="" class="navbar__none--img"></div>
                 </div>
 
                 <div class="navbar">
                     <a href="./page3.html" >Кроха</a>
                     <a href="./page2.html">Наша команда</a>
-                    <a href="./page5.html" class="red">Полдня</a >
+                    <a href="./page5.html" class="red">Расписание</a >
                     <a href="./page4.html">Галерея</a>
                     <div class="navbar__button-and-register">
                         <div>
                             <button class="button" value="">Оставить заявку</button>
                         </div>
                         <div class="navbar__log_in" >
-                            <img id="person" src="../img/Person.png" alt="">
+                            <img id="person" src="./img/Person.png" alt="">
                             <p id="navbar__log_in--text" onclick="copyNumber()"> +7 777 777 77 77</p>
                         </div>
                     </div>
@@ -41,6 +41,59 @@
         </div>
     </header>
     <main>
+        <section class="schedule">
+            <div class="container">
+                <div class="schedule__content">
+                    <div class="schedule__content--card">
+                      <h3>Детская группа 👶</h3>
+                      <p>Пн, Ср, Пт — 09:00</p>
+                      <button class="schedule__button"  id="kids">Подробнее</button>
+                    </div>
+                  
+                    <div class="schedule__content--card">
+                      <h3>Английский язык 🇬🇧</h3>
+                      <p>Вт, Чт — 10:00</p>
+                      <button class="schedule__button" id="english">Подробнее</button>
+                    </div>
+                  
+                    <div class="schedule__content--card">
+                      <h3>Тхэквондо 🥋</h3>
+                      <p>Пн, Ср — 14:00</p>
+                      <button class="schedule__button" id="taekwondo" >Подробнее</button>
+                    </div>
+                  
+                    <div class="schedule__content--card">
+                      <h3>Продлёнка 🕓</h3>
+                      <p>Пн–Пт — 12:00–17:00</p>
+                      <button class="schedule__button" id="duration">Подробнее</button>
+                    </div>
+                  
+                    <div class="schedule__content--card">
+                      <h3>Группа кратковременного пребывания</h3>
+                      <p>Пн–Пт — 08:00–12:00</p>
+                      <button class="schedule__button"  id="less">Подробнее</button>
+                    </div>
+                  
+                    <div class="schedule__content--card">
+                      <h3>Группа Кроха</h3>
+                      <p>Пн, Ср, Пт — 09:00</p>
+                      <button class="schedule__button" id="kroha" >Подробнее</button>
+                    </div>
+            </div>
+<div id="schedule__modal-content">
+    <div id="schedule__modal" class="schedule__modal">
+        <div id="schedule__modal-content">
+            <span id="schedule__modal--close">&times;</span>
+            <h3 id="schedule__modal--Title"></h3>
+            <p id="schedule__modal--Text"></p>
+            <p id="schedule__modal--Date" style="font-weight: bold;"></p>
+            <p id="schedule__modal--Price" style="margin-top: 10px;"></p>
+            <p id="schedule__modal--Age"></p>
+        </div>
+    </div>
+</div>
+        </section>
+        
         <section class="Subscribe">
             <div class="container">
                 <div class="Subscribe__content">
@@ -58,7 +111,7 @@
     </main>
     <div id="modal" class="modal">
         <div class="modal__content">
-            <img src="../img/logo.png" alt="" class="modal__logo">
+            <img src="./img/logo.png" alt="" class="modal__logo">
             <span class="close">&times;</span>
             <h2>Оставьте заявку</h2>
             <form id="contactForm">
@@ -72,7 +125,6 @@
             </form>
         </div>
     </div>
-</body>
 <footer>
     <div class="footer__content">
         <div class="container" id="footer__content--margin">
@@ -96,12 +148,12 @@
                   </svg>
                   <h2>Наши соц сети</h2>
                 <div class="footer__content--block1--img">
-                    <img src="../img/Vector.png" alt="">
-                    <img src="../img/Twitter.png" alt="">
-                    <img src="../img/Subtract.png" alt="">
-                    <img src="../img/telegram.png" alt="">
-                    <img src="../img/Instagram.png" alt="">
-                    <img src="../img/Linked-In.png" alt="">
+                    <img src="./img/Vector.png" alt="">
+                    <img src="./img/Twitter.png" alt="">
+                    <img src="./img/Subtract.png" alt="">
+                    <img src="./img/telegram.png" alt="">
+                    <img src="./img/Instagram.png" alt="">
+                    <img src="./img/Linked-In.png" alt="">
                 </div>
             </div>
             <div class="footer__content--block3">
@@ -132,7 +184,7 @@
         <div class="container" id="footer__content--bottom--flex">
             <div>
                 © All rights reserved.Made with
-                <img src="../img/Vector(Stroke).png" alt="">
+                <img src="./img/Vector(Stroke).png" alt="">
                 by Createx Studio
             </div>
             <div>
@@ -141,5 +193,7 @@
         </div>
     </div>
 </footer>
-<script src="script.js"></script>
+<script src="./script.js"></script>
+<script src="./page5.js"></script>
+</body>
 </html>
