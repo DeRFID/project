@@ -101,7 +101,7 @@ body{
 
 
 header{
-    background-image: url(../img/background.png);
+    background-image: url(./img/background.png);
     padding-top: 20px;
     padding-bottom: 50px;
 }
@@ -300,14 +300,14 @@ header{
     gap: 15px;
 }
 #about{
-    background-image: url(../img/background-2.png)
+    background-image: url(./img/background-2.png)
 }
 
 
 
 .Subscribe{
     height: 564px;
-    background-image: url(../img/background-2\ —\ копия\ 3.png);
+    background-image: url(./img/background-2\ —\ копия\ 3.png);
     margin-top: 180px;
 }
 #Subscribe--input{
